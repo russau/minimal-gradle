@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+// Where to get dependencies from. JCenter is the largest repository of jars and very reputable
+repositories {
+  jcenter()
+}
+
+
+// Define the main class for the application, which is part of the `application` plugin
+mainClassName = 'minimal.App'
